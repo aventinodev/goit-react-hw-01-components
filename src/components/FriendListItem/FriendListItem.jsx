@@ -8,10 +8,9 @@ export default function FriendListItem({ isOnline, avatar, name }) {
     <li className={css.item}>
       <span className={css.status}>
         <FaCircle
+          size={24}
           style={{
             fill: getColorIcon(isOnline),
-            height: '1.5rem',
-            width: '1.5rem',
           }}
         />
       </span>
