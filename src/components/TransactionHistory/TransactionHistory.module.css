@@ -1,0 +1,39 @@
+.transactionHistory {
+  margin: 0 auto 60px;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .transactionHistory {
+    max-width: 600px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+tbody {
+  border-color: cadetblue;
+}
+
+th {
+  background-color: cadetblue;
+}
+tr:nth-child(2n) {
+  background-color: rgb(210 219 219);
+}
+
+td,
+th {
+  padding: 10px 10px;
+  border: 1px solid rgb(222 227 227);
+  text-align: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+td:nth-child(1) {
+  padding-left: 15px;
+  text-align: start;
+}
