@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
-import getRandomHexColor from 'components/utils/randomHexColor';
+import getRandomHexColor from 'utils/randomHexColor';
 export default function Statistics({ title, items }) {
   return (
     <section className={css.statistics}>
